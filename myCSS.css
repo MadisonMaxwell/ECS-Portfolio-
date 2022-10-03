@@ -35,7 +35,7 @@ body {
   color:  #336154;
 }
 .content {
-  text-align: center;
+  text-align: Left;
 }
 .content.home {
   background: url('images/boat_bg.jpg') top left;
