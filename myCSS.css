@@ -2,7 +2,7 @@
 /* This is a comment! Text here will be ignored by the browser. */
 body {
 	margin: 0 auto;
-	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	font: 100%/1.4 serif;
 }
 .homePage {
 	background: #D8DEE3;
@@ -14,43 +14,102 @@ body {
 .header {
 	background: #336154;
 	text-align: center;
-	margin: 0px;
+	margin: 0;
 	padding: 5;
-	float: left;
 	width: 100%;
 	height: 80px;
-	
+	overflow: hidden;
+  color: #e6e6e3;
+}
+.header h1 {
+  font-weight: 200;
 }
 .nav {
 	background: #BEE6DA;
-	margin: 0px;
+	margin: 0;
 	padding: 5;
-	float: left;
 	width: 100%;
 	height: 60px;
 	text-align: center;
+  overflow: hidden;
+  color:  #336154;
 }
 .content {
-	background: #FFFFFF;
-	margin: 0px;
-	float: left;
-	width: 100%;
+  text-align: center;
+}
+.content.home {
+  background: url('images/boat_bg.jpg') top left;
+	margin: 0px auto;
+  height: 500px;
 	text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+.home h1 {
+  font-family: serif;
+  color:  #b0b6b2;
+  font-size: 8em;
+  padding-top: 100px;
+  mix-blend-mode: overlay;
+  font-weight: 200;
+}
+.splash, .splash2, .splash3 {
+  position: absolute;
+  width: 200px;
+  left:  385px;
+  top:  150px;
+}
+.splash { 
+  animation-name: splash;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.splash2 { 
+  animation-name: splash;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-delay: 0.7s;
+
+}
+.splash3 { 
+  animation-name: splash;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-delay: 1.2s;
+  a
 }
 .footer {
 	background: #336154;
 	margin: 0px;
-	float: left;
 	width: 100%;
 	height: 50px;
 	text-align: center;
+  overflow: hidden;
+  color: #e6e6e3;
+}
+.footer h4 {
+  line-height: 50px;
+  margin: 0 auto;
+  padding: 0;
+}
+a {
+  text-decoration: none;
 }
 a:link {
-     color: #000000;
+     color: #336154;
+     cursor: pointer;
 }
 a:visited {
-     color: #111111;
+     color: #336154;
 }
 a:hover, a:active, a:focus { 
      text-decoration: underline;
+}
+
+
+@keyframes splash {
+  0%   {top:  150px; opacity: 0;}
+  10%  {opacity: 1;}
+  90%  {opacity: 0.8;}
+  100% {top: 300px; opacity: 0;}
 }
