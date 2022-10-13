@@ -34,7 +34,7 @@ body {
   overflow: hidden;
   color:  #336154;
 }
-.nav a {
+.nav a:link {
 	color: #336154
 }
 .nav a:hover {
