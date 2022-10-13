@@ -34,6 +34,12 @@ body {
   overflow: hidden;
   color:  #336154;
 }
+.nav a {
+	color: #336154
+}
+.nav a:hover {
+	color: #23433a
+}
 .content {
   text-align: Left;
 }
