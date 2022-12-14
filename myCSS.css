@@ -59,31 +59,6 @@ body {
   mix-blend-mode: overlay;
   font-weight: 200;
 }
-.splash, .splash2, .splash3 {
-  position: absolute;
-  width: 200px;
-  left:  385px;
-  top:  150px;
-}
-.splash { 
-  animation-name: splash;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-}
-.splash2 { 
-  animation-name: splash;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-delay: 0.7s;
-
-}
-.splash3 { 
-  animation-name: splash;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-delay: 1.2s;
-  a
-}
 .footer {
 	background: #336154;
 	margin: 0px;
