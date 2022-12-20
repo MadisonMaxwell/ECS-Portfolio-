@@ -46,6 +46,7 @@ body {
 .content.home {
   background-image: url('images/psychology.jpg');
   background-size: cover;
+  background-position: top center;
   margin: 0px auto;
   height: 800px;
   text-align: center;
