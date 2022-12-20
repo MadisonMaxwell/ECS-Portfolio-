@@ -44,7 +44,7 @@ body {
   text-align: Left;
 }
 .content.home {
-  background: url('psychology.jpg') top left;
+  background: url('images/psychology.jpg') top left;
 	margin: 0px auto;
   height: 500px;
 	text-align: center;
