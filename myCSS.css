@@ -93,3 +93,10 @@ a:hover, a:active, a:focus {
   text-align: center;
   font: serif;
 }
+
+.interestimage {
+  width:600px;
+  height: auto;
+  display: block;
+}
+
