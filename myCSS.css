@@ -44,10 +44,11 @@ body {
   text-align: Left;
 }
 .content.home {
-  background: url('images/psychology.jpg') cover;
-	margin: 0px auto;
+  background-image: url('images/psychology.jpg');
+  background-size: cover;
+  margin: 0px auto;
   height: 800px;
-	text-align: center;
+  text-align: center;
   overflow: hidden;
   position: relative;
 }
