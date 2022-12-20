@@ -89,10 +89,7 @@ a:hover, a:active, a:focus {
   color:#23433a;
 }
 
-
-@keyframes splash {
-  0%   {top:  150px; opacity: 0;}
-  10%  {opacity: 1;}
-  90%  {opacity: 0.8;}
-  100% {top: 300px; opacity: 0;}
+.interesttext {
+  text-align: center;
+  font: serif;
 }
